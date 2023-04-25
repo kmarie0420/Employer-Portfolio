@@ -42,14 +42,17 @@ nav ul li {
     width: 100%;
  }
  .profilePicture {
-    width: 200px;
-    margin: 10px;
+    max-width: 5px;
+    max-inline-size: 20%;
     display: block;
+    margin-bottom: 20px;
+    margin-left: 280px;
+    margin-top: 20px;
  }
 
  .left {
     width: 15vw;
-    text-align: center;;
+    text-align: center;
  }
 
 .right {

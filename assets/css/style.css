@@ -7,6 +7,7 @@ html {
 
 header {
     display: flex;
+    /* to make evenly on screen */
     justify-content: space-between;
     background: black;
     color: rgb(232, 100, 100);
@@ -25,10 +26,12 @@ h1, h2 {
 
 nav ul {
     display: flex;
+    /* used to control spacing between them */
 }
 
 nav ul li {
     list-style-type: none;
+    /* took bullet points off and was able to control the spacing from nav ul */
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -41,15 +44,19 @@ nav ul li {
 
  section {
     display: flex;
+    /* displayed flex to control spacing between content */
     width: 100%;
  }
  #profile-pic {
+   /* made profle picture smaller to meet criteria */
     width: 200px;
     height: 200px;
     margin-left: 10px;
+    /* pulled away from edge of screen for better look */
  }
 
  #First-App {
+   /* made development img bigger in size than the other to meet criteria */
     width: 325px;
     height: 150px;
     display: inline-flex;
@@ -61,6 +68,7 @@ nav ul li {
  }
 
  .left {
+   /* had to assign each element where to go */
     width: 15vw;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -69,6 +77,7 @@ nav ul li {
  }
 
 .right {
+   /* continuation of above comment */
     width: 80vw;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: larger;
@@ -77,6 +86,7 @@ nav ul li {
  }
 
  .right ul {
+   /* displayed flex to move wording to opposite side */
     display: flex;
     justify-content: space-evenly;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -87,15 +97,18 @@ nav ul li {
 
  .right ul li {
     list-style-type: none;
+    /* no bullet points to make it looker better */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: larger;
     font-style: italic;
     letter-spacing: 3pt;
+    /* styled wording */
  }
 
+ /* added @media querey to view on different screens */
 @media screen and (max-width: 1250px) {
    body {
-      background-color: rgb(58, 54, 54);
+      background-color: rgb(0, 0, 0);
    }
 }
 

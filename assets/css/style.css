@@ -1,4 +1,4 @@
-body, html {
+html {
     margin: 0;
     padding: 0;
     background: black;
@@ -41,13 +41,20 @@ nav ul li {
     display: flex;
     width: 100%;
  }
- .profilePicture {
-    max-width: 5px;
-    max-inline-size: 20%;
-    display: block;
+ #profile-pic {
+    width: 400px;
+    height: 400px;
+ }
+
+ #First-App {
+    width: 325px;
+    height: 150px;
+    display: inline-flex;
+    justify-content: center;
+    margin-left: 300px;
     margin-bottom: 20px;
-    margin-left: 280px;
     margin-top: 20px;
+    padding-left: 5px;
  }
 
  .left {

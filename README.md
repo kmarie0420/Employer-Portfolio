@@ -22,4 +22,16 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 
 ## Description
-I am creating a portfolio to show my skills to an potential employer. Easy to see and navigate. 
+I am creating a portfolio to show my skills and future goals to a potential employer. Easy to see and navigate. 
+Short, sweet and straight to the point!
+
+## Images
+![Alt text](assets/Images/Me.jpg)
+![Alt text](assets/Images/Horiseon.png)
+
+## Repository
+https://github.com/kmarie0420/Employer-Portfolio
+
+## Deployment
+https://kmarie0420.github.io/Employer-Portfolio/
+![Alt text](assets/Images/2023-04-26.png)

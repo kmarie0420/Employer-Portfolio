@@ -93,10 +93,12 @@ nav ul li {
     letter-spacing: 3pt;
  }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 992px) {
    body {
       background-color: rgb(58, 54, 54);
    }
 }
+
+
 
 

@@ -106,11 +106,18 @@ nav ul li {
  }
 
  /* added @media querey to view on different screens */
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 767px) {
    body {
       background-color: rgb(0, 0, 0);
    }
 }
+
+@media (max-width: 767px) {
+   Horiseon.png {
+      margin-left: auto;
+   }
+
+   }
 
 
 

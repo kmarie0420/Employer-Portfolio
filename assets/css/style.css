@@ -55,7 +55,7 @@ nav ul li {
     /* pulled away from edge of screen for better look */
  }
 
- #First-App {
+ #First-App, #Second-App {
    /* made development img bigger in size than the other to meet criteria */
     width: 325px;
     height: 150px;
